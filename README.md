@@ -13,7 +13,7 @@ The goal is simple: demonstrate how to make a simple Amazon review parser / anal
 
 Here is an example: 
 
-![Screenshot](resources/screenshot.png)
+![Screenshot](https://github.com/maxpastor/Amazon-Review-Analysis/blob/main/resources/Screenshot.png)
 
 ## How to use 
 
