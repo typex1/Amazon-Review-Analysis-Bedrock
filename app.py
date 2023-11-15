@@ -3,6 +3,9 @@ import boto3
 import json 
 import re
 
+#The Bedrock region
+region = "us-west-2"
+
 
 def parse_xml_reviews(xml_data):
     positives = re.findall(r'<Positives>(.*?)</Positives>', xml_data, re.DOTALL)
@@ -17,7 +20,7 @@ def parse_xml_reviews(xml_data):
     return positive_elements, neutral_elements, negative_elements
 
 def parse_review(review):
-    bedrock = boto3.client(service_name='bedrock-runtime', region_name="us-west-2")
+    bedrock = boto3.client(service_name='bedrock-runtime', region_name=region)
     
     modelId = 'anthropic.claude-v2'
     accept = 'application/json'

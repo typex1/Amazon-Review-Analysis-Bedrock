@@ -25,6 +25,8 @@ Here is an example:
 - 6: Run the following commands
 - 7: Click on Preview at the top to show the web app
 - 8: Paste a review and enjoy!
+
+### You might want to change the region in the code as it is US-WEST-2 at the moment
 ```bash
 # Clone the repository
 git clone https://github.com/maxpastor/Amazon-Review-Analysis.git
