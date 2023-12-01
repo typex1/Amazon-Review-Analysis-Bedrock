@@ -23,13 +23,16 @@ Here is an example:
 - 4: Assign the role to the instance in the EC2 console (top right-> actions -> security -> Modify IAM role)
 - 5: In Cloud9, remove the AWS managed credentials (top right -> gear icon -> AWS Settings -> Credentials -> Turn Off)
 - 6: Run the following commands
-- 7: Click on Preview at the top to show the web app
+- 7: Click on "Preview > Preview Running Application" in of the Cloud9 top menu bar
 - 8: Paste a review and enjoy!
 
 ### You might want to change the region in the code as it is US-WEST-2 at the moment
 ```bash
+# if you do not have >= python 3.9 installed, please upgrade like described here:
+# https://tecadmin.net/install-python-3-9-on-amazon-linux/
 # Clone the repository
-git clone https://github.com/maxpastor/Amazon-Review-Analysis.git
+git clone https://github.com/typex1/Amazon-Review-Analysis.git
+cd Amazon-Review-Analysis
 pip install -r requirements.txt
 streamlit run app.py --server.port 8080
 ```
