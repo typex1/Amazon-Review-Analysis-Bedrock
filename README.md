@@ -31,8 +31,8 @@ Here is an example:
 # if you do not have >= python 3.9 installed, please upgrade like described here:
 # https://tecadmin.net/install-python-3-9-on-amazon-linux/
 # Clone the repository
-git clone https://github.com/typex1/Amazon-Review-Analysis.git
-cd Amazon-Review-Analysis
+git clone https://github.com/typex1/Amazon-Review-Analysis-Bedrock.git
+cd Amazon-Review-Analysis-Bedrock
 pip install -r requirements.txt
 streamlit run app.py --server.port 8080
 ```
